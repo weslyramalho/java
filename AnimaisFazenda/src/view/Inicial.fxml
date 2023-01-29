@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="controller.InicialController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="366.0" prefWidth="534.0">
+               <children>
+                  <MenuBar prefHeight="26.0" prefWidth="550.0">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="Novo">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Aves" />
+                              <MenuItem mnemonicParsing="false" text="Bovino" />
+                              <MenuItem mnemonicParsing="false" text="Equino" />
+                              <MenuItem mnemonicParsing="false" text="Suino" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Edit">
+                        <items>
+                              <MenuItem mnemonicParsing="false" text="Atualizar" />
+                              <MenuItem mnemonicParsing="false" text="Deletar" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Pesquisar">
+                        <items>
+                              <MenuItem mnemonicParsing="false" text="Aves" />
+                          <MenuItem mnemonicParsing="false" text="Bovinos" />
+                              <MenuItem mnemonicParsing="false" text="Equinos" />
+                              <MenuItem mnemonicParsing="false" text="Suinos" />
+                              <MenuItem mnemonicParsing="false" text="Todos" />
+                        </items>
+                      </Menu>
+                    </menus>
+                  </MenuBar>
+               </children>
+            </VBox>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

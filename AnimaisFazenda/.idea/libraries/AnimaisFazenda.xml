@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AnimaisFazenda">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/AnimaisFazenda.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
